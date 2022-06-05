@@ -3,11 +3,7 @@ let audioArr = document.getElementsByTagName('audio');
 console.log(audioArr);
 var isPlaying = false;
 heart1.addEventListener('click', () => {
-    audioArr[0].play();
-    // isPlaying = !isPlaying;
-    // if(isPlaying){
-    //   audioArr[0].pause();
-    // }
+    audioArr[0].play()
 })
 heart1.addEventListener('click', () => {
     audioArr[0].pause();
