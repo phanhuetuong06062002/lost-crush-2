@@ -12,7 +12,7 @@ heart1.addEventListener('click', () => {
 //     audioArr[1].play();
 // })
 
-
+//Mouse move effect
 
 document.addEventListener('mousemove', function (e) {
   var body = document.querySelector('body');
@@ -29,3 +29,6 @@ document.addEventListener('mousemove', function (e) {
     heart.remove()
   },2500)
 })
+
+//Rain fall effect with Canvas
+
